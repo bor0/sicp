@@ -27,6 +27,8 @@ I plan to use the book as follows:
 4. Watch http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/ to get re-motivated
 
 Videos mapped to chapters:
-Chapter 1: 1A, 1B, 2A
+
+* Chapter 1: [1A](https://www.youtube.com/watch?v=2Op3QLzMgSY), [1B](https://www.youtube.com/watch?v=dlbMuv-jix8), [2A](https://www.youtube.com/watch?v=erHp3r6PbJk)
+* Chapter 2: [2B](https://www.youtube.com/watch?v=ymsbTVLbyN4)
 
 Boro Sitnikovski
