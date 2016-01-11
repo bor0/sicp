@@ -16,11 +16,13 @@
 ;  (if (or (= 0 (upper-bound y)) (= 0 (lower-bound y))))
 ; But for an interval (-a, a) to span to zero, any value for a will work.
 ; So the correct check is:
-  (if (and (<= (lower-bound y) 0) (>= (upper-bound y) 0)))
+  (if (and
+       (<= (lower-bound y) 0)
+       (>= (upper-bound y) 0) 0)
   (error "Division by zero span")
   (mul-interval x
                 (make-interval (/ 1.0 (upper-bound y))
-                               (/ 1.0 (lower-bound y)))))
+                               (/ 1.0 (lower-bound y))))))
 
 (define (make-interval a b) (cons a b))
 (define (lower-bound i) (car i))
