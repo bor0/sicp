@@ -10,6 +10,22 @@
 
 (define (queen-row? p1 p2) (not (= (pair-fst p1) (pair-fst p2))))
 (define (queen-col? p1 p2) (not (= (pair-snd p1) (pair-snd p2))))
+
+#|
+A3 _a_  A4
+  |  /|
+a | / | a
+  |/__|
+A1  a   A2
+
+A1 = (x, y)
+A2 = (x + a, y)
+A3 = (x, y + a)
+A4 = (x + a, y + a)
+
+In a square, A1 and A4 are diagonal. The difference between their coordinates is:
+(x + a - x, y + a - y) = (a, a). That is, if |x1 - x2| = |y1 - y2| then (x1, y1) is diagonal with (x2, y2)
+|#
 (define (queen-diagonal? p1 p2) (not (= (abs (- (pair-fst p1) (pair-fst p2))) ; two points are diagonally
                                     (abs (- (pair-snd p1) (pair-snd p2))))))  ; aligned iff |x1-x2|=|y1-y2|
 
