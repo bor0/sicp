@@ -29,6 +29,6 @@ I plan to use the book as follows:
 Videos mapped to chapters:
 
 * Chapter 1: [1A](https://www.youtube.com/watch?v=2Op3QLzMgSY), [1B](https://www.youtube.com/watch?v=dlbMuv-jix8), [2A](https://www.youtube.com/watch?v=erHp3r6PbJk)
-* Chapter 2: [2B](https://www.youtube.com/watch?v=ymsbTVLbyN4), [3A](https://www.youtube.com/watch?v=2QgZVYI3tDs)
+* Chapter 2: [2B](https://www.youtube.com/watch?v=ymsbTVLbyN4), [3A](https://www.youtube.com/watch?v=2QgZVYI3tDs), [3B](https://www.youtube.com/watch?v=X21cKVtGvYk)
 
 Boro Sitnikovski
