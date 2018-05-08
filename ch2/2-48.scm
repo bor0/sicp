@@ -6,6 +6,6 @@
 (define (xcor-vect v) (car v))
 (define (ycor-vect v) (cdr v))
 
-(define (make-segment x1 y1 x2 y2) (cons (make-vect x1 y1) (make-vect x2 y2)))
+(define (make-segment v1 v2) (cons v1 v2))
 (define (start-segment s) (car s))
 (define (end-segment s) (cdr s))
