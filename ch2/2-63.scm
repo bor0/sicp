@@ -1,4 +1,6 @@
 #lang racket
+; Exercise 2.63: Each of the following two procedures converts a binary tree to a list:
+
 (define (entry tree) (car tree))
 (define (left-branch tree) (cadr tree))
 (define (right-branch tree) (caddr tree))
